@@ -3,13 +3,15 @@ body, html {
     height: 100%;
 }
 .container {
-    display: flex;
-    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
 }
 .left {
     flex: 1;
     background-image: url('odin_picture.jpg');
     background-color: lightblue;
+    background-size: cover;
     padding: 20px;
     box-sizing: border-box;
 }
