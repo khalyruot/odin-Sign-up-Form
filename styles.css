@@ -1,16 +1,21 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+body, html {
     margin: 0;
+    height: 100%;
+}
+.container {
+    display: flex;
+    height: 100%;
+}
+.left {
+    flex: 1;
+    background-image: url('odin_picture.jpg');
+    background-color: lightblue;
     padding: 20px;
+    box-sizing: border-box;
 }
-
-h1 {
-    color: #333;
+.right {
+    flex: 1;
+    background-color: lightgreen;
+    padding: 20px;
+    box-sizing: border-box;
 }
-
-p {
-    color: #666;
-}
-
