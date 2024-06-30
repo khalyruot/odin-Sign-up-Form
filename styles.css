@@ -9,15 +9,29 @@ body, html {
 }
 .left {
     flex: 1;
+    width: 100%;
     background-image: url('odin_picture.jpg');
     background-color: lightblue;
     background-size: cover;
-    padding: 20px;
     box-sizing: border-box;
 }
 .right {
     flex: 1;
     background-color: lightgreen;
-    padding: 20px;
     box-sizing: border-box;
+}
+
+.div1, .div2 {
+    height: 100vh;
+    border: 1px solid #000;
+    color: red;
+}
+
+.div1 {
+    flex: 1;
+    background-color: rgba(89, 109, 72, 0.5); /* 50% transparent #596D48 */
+    height: 60px; /* Set height to 40px */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    position: absolute; /* Position absolutely within the container */
+    bottom: 60%; /* Position 1/3 from the bottom */
 }
