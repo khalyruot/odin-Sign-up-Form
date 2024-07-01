@@ -28,13 +28,19 @@ body, html {
 }
 
 .div1 {
-    width: 33.333%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 33.3333%;
     background-color: rgba(135, 135, 135, 0.5); /* 50% transparent #596D48 */
     height: 100px; /* Set height to 40px */
     box-sizing: border-box; /* Include padding and border in width calculation */
     position: absolute; /* Position absolutely within the container */
     bottom: 60%; /* Position 1/3 from the bottom */
     
+}
+
+.odin_logo{
+    height: auto;
 }
 
 .div2 {
