@@ -28,10 +28,20 @@ body, html {
 }
 
 .div1 {
-    flex: 1;
-    background-color: rgba(89, 109, 72, 0.5); /* 50% transparent #596D48 */
-    height: 60px; /* Set height to 40px */
+    width: 33.333%;
+    background-color: rgba(135, 135, 135, 0.5); /* 50% transparent #596D48 */
+    height: 100px; /* Set height to 40px */
     box-sizing: border-box; /* Include padding and border in width calculation */
     position: absolute; /* Position absolutely within the container */
     bottom: 60%; /* Position 1/3 from the bottom */
+    
+}
+
+.div2 {
+    background-color: rgba(15, 29, 3, 0.5); /* 50% transparent #596D48 */
+    height: 60px; /* Set height to 40px */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    position: absolute; /* Position absolutely within the container */
+    bottom: 10%; /* Position 1/3 from the bottom */
+    
 }
