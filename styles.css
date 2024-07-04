@@ -97,3 +97,37 @@ p {
     background-color: lightgreen;
     height: 100px;
 }
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+.form-row label {
+    margin-bottom: 5px;
+}
+.form-row input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+.form-row span {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+.form-row button {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 200px;
+}
