@@ -94,7 +94,6 @@ p {
 }
 .green {
     flex:3;
-    background-color: lightgreen;
     height: 100px;
 }
 
@@ -137,4 +136,35 @@ p {
     width: 200px;
     display: flex;
     justify-content: center;
+}
+
+.button-div {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.button-div button {
+    background-color: lightgreen;
+    border: none;
+    padding: 20px 60px;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.paragraph-div {
+    display: flex;
+    align-items: flex-start;
+    height: 200px; /* Adjust as needed */
+}
+.paragraph-div p {
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.paragraph-div2  {
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 20px;
 }
